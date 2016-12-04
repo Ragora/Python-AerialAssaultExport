@@ -19,6 +19,7 @@ def command_camera(command, result):
 	position = "%s %s %s" % (command[1], command[3], command[2])
 
 	entity = {
+		"position": position,
 		"class": "Camera",
 		"scale": "1 1 1",
 		"datablock": "Observer",
